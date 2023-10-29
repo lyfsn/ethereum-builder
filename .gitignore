@@ -1,0 +1,11 @@
+beacondata
+gethdata
+validatordata
+
+prysmctl
+geth
+validator
+beacon-chain
+
+secret.json
+genesis.ssz
