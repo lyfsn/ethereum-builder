@@ -9,3 +9,5 @@ beacon-chain
 
 secret.json
 genesis.ssz
+
+.idea
