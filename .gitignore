@@ -7,7 +7,6 @@ geth
 validator
 beacon-chain
 
-secret.json
 genesis.ssz
 
 .idea
