@@ -5,5 +5,5 @@
   --interop-start-index=0 \
   --chain-config-file=config.yml \
   --config-file=config.yml \
-  --beacon-rpc-provider=localhost:50090 \
+  --beacon-rpc-provider=localhost:50110 \
   --monitoring-port=50200 \
