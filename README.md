@@ -17,6 +17,7 @@ git submodule update
 Terminal 2:
 
 ```
+./genGenesisState.sh
 ./startBeaconChain.sh
 ```
 
