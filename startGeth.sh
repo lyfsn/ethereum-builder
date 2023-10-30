@@ -16,5 +16,9 @@
   --nodiscover console \
   --syncmode=full \
   --mine=true \
-  --miner.etherbase=0x123463a4b065722e99115d6c222f267d9cabb524
+  --miner.etherbase=0x123463a4b065722e99115d6c222f267d9cabb524 \
+  --port 50050 \
+  --http.port 50060 \
+  --ws.port 50070 \
+  --authrpc.port 50080 \
 

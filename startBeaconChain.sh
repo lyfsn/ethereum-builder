@@ -7,7 +7,7 @@
   --chain-config-file=config.yml \
   --config-file=config.yml \
   --chain-id=32382 \
-  --execution-endpoint=http://localhost:8551 \
+  --execution-endpoint=http://localhost:50080 \
   --accept-terms-of-use \
   --jwt-secret=gethdata/geth/jwtsecret \
   --contract-deployment-block=0 \
@@ -15,4 +15,7 @@
   --suggested-fee-recipient=0x123463a4b065722e99115d6c222f267d9cabb524 \
   --minimum-peers-per-subnet=0 \
   --enable-debug-rpc-endpoints \
-  # --force-clear-db \
+  --monitoring-port=50100 \
+  --rpc-port=50110 \
+  --grpc-gateway-port=50120 \
+  --p2p-tcp-port=50130 \
