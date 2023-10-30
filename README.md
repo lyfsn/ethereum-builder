@@ -6,8 +6,8 @@ Terminal 1:
 git submodule init
 git submodule update
 
-buildGeth.sh
-buildPrysm.sh
+./buildGeth.sh
+./buildPrysm.sh
 
 ./clear.sh
 ./initGeth.sh
