@@ -13,3 +13,5 @@ genesis.ssz
 *.tar.gz
 rpcDataArchive
 rpcChainData
+
+exportData
