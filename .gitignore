@@ -10,3 +10,6 @@ beacon-chain
 genesis.ssz
 
 .idea
+*.tar.gz
+rpcDataArchive
+rpcChainData

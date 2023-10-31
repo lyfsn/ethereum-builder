@@ -6,7 +6,7 @@
   --interop-eth1data-votes \
   --chain-config-file=config.yml \
   --config-file=config.yml \
-  --chain-id=32382 \
+  --chain-id=6480000000 \
   --execution-endpoint=http://localhost:50080 \
   --accept-terms-of-use \
   --jwt-secret=gethdata/geth/jwtsecret \
