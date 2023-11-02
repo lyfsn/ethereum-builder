@@ -1,7 +1,7 @@
  ./validator \
   --datadir=validatordata \
   --accept-terms-of-use \
-  --interop-num-validators=64 \
+  --interop-num-validators=8 \
   --interop-start-index=0 \
   --chain-config-file=config.yml \
   --config-file=config.yml \

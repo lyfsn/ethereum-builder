@@ -7,6 +7,8 @@
   --chain-config-file=config.yml \
   --config-file=config.yml \
   --chain-id=32382 \
+  --rpc-host=0.0.0.0 \
+  --grpc-gateway-host=0.0.0.0 \
   --execution-endpoint=http://localhost:8551 \
   --accept-terms-of-use \
   --jwt-secret=gethdata/geth/jwtsecret \
