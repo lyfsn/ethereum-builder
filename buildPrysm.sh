@@ -1,5 +1,5 @@
-cd prysm
-go build -o=../beacon-chain ./cmd/beacon-chain
-go build -o=../validator ./cmd/validator
-go build -o=../prysmctl ./cmd/prysmctl
+cd ../prysm
+go build -o=../ethereum-builder/beacon-chain ./cmd/beacon-chain
+go build -o=../vethereum-builder/alidator ./cmd/validator
+go build -o=../ethereum-builder/prysmctl ./cmd/prysmctl
 cd ..
