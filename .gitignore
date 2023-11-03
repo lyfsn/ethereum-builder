@@ -11,3 +11,6 @@ genesis.ssz
 
 .idea
 *.tar.gz
+validator_3*
+new_trie
+trie_*

@@ -13,9 +13,11 @@
   --allow-insecure-unlock \
   --unlock="0x123463a4b065722e99115d6c222f267d9cabb524" \
   --password="" \
-  --nodiscover \
   --syncmode=full \
   --mine=true \
   --miner.etherbase=0x123463a4b065722e99115d6c222f267d9cabb524 \
+  --discovery.port=30303 \
+  --verbosity=3 \
+  # --nodiscover \
   # console
 

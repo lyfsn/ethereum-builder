@@ -1,5 +1,5 @@
 ./beacon-chain \
-  --datadir=beacondata \
+  --datadir=beacondata2 \
   --min-sync-peers=0 \
   --genesis-state=genesis.ssz \
   --bootstrap-node= \
@@ -9,14 +9,15 @@
   --chain-id=32382 \
   --rpc-host=0.0.0.0 \
   --grpc-gateway-host=0.0.0.0 \
-  --execution-endpoint=http://localhost:8551 \
+  --execution-endpoint=http://localhost:9551 \
   --accept-terms-of-use \
-  --jwt-secret=gethdata/geth/jwtsecret \
+  --jwt-secret=gethdata2/geth/jwtsecret \
   --contract-deployment-block=0 \
   --rpc-host=0.0.0.0 \
   --suggested-fee-recipient=0x123463a4b065722e99115d6c222f267d9cabb524 \
   --minimum-peers-per-subnet=0 \
   --enable-debug-rpc-endpoints \
-  --slots-per-archive-point=8 \
-  --verbosity=info \
+  --p2p-tcp-port=23000 \
+  --p2p-udp-port=22000 \
+  --rpc-port=5000 \
   # --force-clear-db \
