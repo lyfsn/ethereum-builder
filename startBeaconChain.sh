@@ -18,4 +18,5 @@
   --minimum-peers-per-subnet=0 \
   --enable-debug-rpc-endpoints \
   --verbosity=info \
+  --slots-per-archive-point=1
   # --force-clear-db \
