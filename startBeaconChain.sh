@@ -6,7 +6,7 @@
   --interop-eth1data-votes \
   --chain-config-file=config.yml \
   --config-file=config.yml \
-  --chain-id=32382 \
+  --chain-id=${CHAIN_ID:-32382} \
   --rpc-host=0.0.0.0 \
   --grpc-gateway-host=0.0.0.0 \
   --execution-endpoint=http://localhost:8551 \
@@ -17,6 +17,5 @@
   --suggested-fee-recipient=0x123463a4b065722e99115d6c222f267d9cabb524 \
   --minimum-peers-per-subnet=0 \
   --enable-debug-rpc-endpoints \
-  --slots-per-archive-point=8 \
   --verbosity=info \
   # --force-clear-db \
